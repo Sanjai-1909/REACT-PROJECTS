@@ -1,0 +1,60 @@
+
+.form__container {
+ width: 100%;
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-content: center;
+ align-items: center;
+ user-select: none;
+}
+.register__form {
+ width: 300px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.input__fields {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: last baseline;
+ margin: 10px 0;
+}
+label {
+ margin-bottom: 5px;
+ letter-spacing: 1px;
+}
+input {
+ width: 200px;
+ height: 20px;
+ text-align: left;
+ letter-spacing: 1px;
+ padding-left: 10px;
+ border: 0.2px solid #00000090;
+ border-radius: 10px;
+ outline: none;
+}
+input:focus-within {
+ border: 1.1px solid #000;
+}
+.submit__btn {
+ width: 120px;
+ height: 25px;
+ background-color: #000;
+ color: #fff;
+ text-align: center;
+ letter-spacing: 1px;
+ border: none;
+ border-radius: 10px;
+ cursor: pointer;
+}
+.submitted_container {
+ width: 100%;
+ height: 100vh;
+}
+.heading,
+.data {
+ margin-top: 5px;
+}
